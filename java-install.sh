@@ -1,3 +1,5 @@
+#!/bin/sh
+
 sudo apt-get update -y
 sudo apt install default-jre -y
 sudo apt install openjdk-11-jre-headless -y
