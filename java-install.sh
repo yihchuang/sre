@@ -15,10 +15,10 @@ wget https://jmeter-plugins.org/files/packages/jpgc-cmd-2.2.zip
 wget https://jmeter-plugins.org/files/packages/jpgc-synthesis-2.2.zip
 wget https://jmeter-plugins.org/files/packages/jpgc-filterresults-2.2.zip
 wget https://jmeter-plugins.org/files/packages/jpgc-mergeresults-2.1.zip
-unzip -o jpgc-cmd-2.2.zip
-unzip -o jpgc-synthesis-2.2.zip
-unzip -o jpgc-filterresults-2.2.zip
-unzip -o jpgc-mergeresults-2.1.zip
+/usr/bin/unzip -o jpgc-cmd-2.2.zip
+/usr/bin/unzip -o jpgc-synthesis-2.2.zip
+/usr/bin/unzip -o jpgc-filterresults-2.2.zip
+/usr/bin/unzip -o jpgc-mergeresults-2.1.zip
 cd bin 
 binpath=$(pwd)
 cd $dirpath
