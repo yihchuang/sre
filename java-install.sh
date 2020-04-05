@@ -4,7 +4,7 @@ sudo apt-get update -y
 sudo apt install default-jre -y
 sudo apt install openjdk-11-jre-headless -y
 sudo apt install openjdk-8-jre-headless -y
-sudo apt install unzip
+sudo apt install unzip -y
 dirpath=$(pwd)
 wget https://downloads.apache.org//jmeter/binaries/apache-jmeter-5.2.1.tgz
 tar xf apache-jmeter-5.2.1.tgz
