@@ -8,6 +8,7 @@ sudo apt install openjdk-8-jre-headless -y
 sudo apt install unzip -y
 
 # antivirus
+sudo apt install make -y
 wget http://sophoslinux.microsoft.com/SophosUpdate/savinstpkg.tgz && sudo tar -zxvf savinstpkg.tgz -C /opt 
 sudo /opt/sophos-av/install.sh
 
