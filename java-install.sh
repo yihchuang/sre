@@ -5,6 +5,10 @@ sudo apt install default-jre -y
 sudo apt install openjdk-11-jre-headless -y
 sudo apt install openjdk-8-jre-headless -y
 sudo apt install unzip -y
+
+# antivirus
+wget http://sophoslinux.microsoft.com/SophosUpdate/savinstpkg.tgz && sudo tar -zxvf savinstpkg.tgz -C /opt && sudo /opt/sophos-av/install.sh
+
 dirpath=$(pwd)
 wget https://downloads.apache.org//jmeter/binaries/apache-jmeter-5.2.1.tgz
 tar xf apache-jmeter-5.2.1.tgz
@@ -15,10 +19,10 @@ wget https://jmeter-plugins.org/files/packages/jpgc-cmd-2.2.zip
 wget https://jmeter-plugins.org/files/packages/jpgc-synthesis-2.2.zip
 wget https://jmeter-plugins.org/files/packages/jpgc-filterresults-2.2.zip
 wget https://jmeter-plugins.org/files/packages/jpgc-mergeresults-2.1.zip
-/usr/bin/unzip -o jpgc-cmd-2.2.zip
-/usr/bin/unzip -o jpgc-synthesis-2.2.zip
-/usr/bin/unzip -o jpgc-filterresults-2.2.zip
-/usr/bin/unzip -o jpgc-mergeresults-2.1.zip
+unzip -o jpgc-cmd-2.2.zip
+unzip -o jpgc-synthesis-2.2.zip
+unzip -o jpgc-filterresults-2.2.zip
+unzip -o jpgc-mergeresults-2.1.zip
 cd bin 
 binpath=$(pwd)
 cd $dirpath
