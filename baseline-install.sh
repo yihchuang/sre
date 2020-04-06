@@ -12,7 +12,7 @@ sudo apt install make -y
 wget http://sophoslinux.microsoft.com/SophosUpdate/savinstpkg.tgz && sudo tar -zxvf savinstpkg.tgz -C /opt 
 sudo /opt/sophos-av/install.sh
 
-# create a temp directory
-mkdir test123
+# create a placeholder directory
+mkdir /test123
 
 echo "Installation Completed"
